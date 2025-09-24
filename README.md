@@ -95,3 +95,36 @@ The dashboard allows a user to:
 ```bash
 git clone https://github.com/yourusername/HR-Prediction-Dashboard.git
 cd HR-Prediction-Dashboard
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the Streamlit dashboard:
+
+streamlit run dashboard.py
+
+
+Open the URL in your browser and start interacting with the dashboard.
+
+Project Structure
+HR-Prediction-Dashboard/
+│
+├─ dashboard.py                  # Streamlit app
+├─ HR_Data_MNC_Data Science Lovers.csv  # HR dataset
+├─ requirements.txt              # Dependencies
+├─ README.md                     # Project documentation
+├─ .gitignore                    # Ignore unnecessary files
+├─ notebooks/                    # Optional: EDA / analysis notebooks
+└─ assets/                       # Optional: images, logos, icons
+
+Dependencies
+
+streamlit
+
+pandas
+
+numpy
+
+scikit-learn
